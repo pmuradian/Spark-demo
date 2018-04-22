@@ -1,17 +1,11 @@
-
-import org.apache.spark.sql.Encoder;
 import org.apache.spark.sql.Encoders;
 import org.apache.spark.sql.SparkSession;
 import org.apache.spark.sql.Dataset;
-import org.apache.spark.sql.functions;
-
-import javax.xml.crypto.Data;
-import java.lang.Math;
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.Level;
+
+import java.lang.Math;
+import java.util.Arrays;
 
 public class SparkDemo {
     public static void main(String[] args) {
